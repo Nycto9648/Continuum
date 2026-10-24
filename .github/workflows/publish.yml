@@ -24,7 +24,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          DEFAULT_VERSIONS=">=1.21.4 <=26.3"
+          DEFAULT_VERSIONS=">=26.3 <=26.3"
           VERSION_LINE="$(printf '%s\n' "$RELEASE_BODY" | sed -nE 's/^[[:space:]]*Minecraft versions:[[:space:]]*(.+)[[:space:]]*$/\1/ip' | head -n 1)"
           GAME_VERSIONS="${VERSION_LINE:-$DEFAULT_VERSIONS}"
 
@@ -70,7 +70,7 @@ jobs:
 
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-          modrinth-id: VIB2yHNB
+          modrinth-id: xYaRnQHK
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
           name: ${{ github.event.release.name }}

@@ -1,0 +1,13 @@
+{
+  "parent": "connected_glass:block/panes/shape_8",
+  "textures": {
+    "pane": {
+      "sprite": "connected_glass:effect/gray_stained_glass",
+      "force_translucent": true
+    },
+    "border": {
+      "sprite": "connected_glass:effect/borders/gray_stained_glass",
+      "force_translucent": true
+    }
+  }
+}

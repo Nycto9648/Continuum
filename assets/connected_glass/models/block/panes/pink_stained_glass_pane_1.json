@@ -1,0 +1,13 @@
+{
+  "parent": "connected_glass:block/panes/shape_1",
+  "textures": {
+    "pane": {
+      "sprite": "connected_glass:effect/pink_stained_glass",
+      "force_translucent": true
+    },
+    "border": {
+      "sprite": "connected_glass:effect/borders/pink_stained_glass",
+      "force_translucent": true
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "connected_glass:effect/green_stained_glass",
+    "layer1": "connected_glass:effect/borders/green_stained_glass"
+  }
+}

@@ -1,0 +1,656 @@
+{
+  "sources": [
+    {
+      "resource": "connected_glass:internal/black_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/black_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/black_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/black_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/black_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/black_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/black_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/blue_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/blue_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/blue_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/blue_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/blue_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/blue_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/blue_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/brown_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/brown_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/brown_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/brown_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/brown_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/brown_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/brown_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/cyan_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/cyan_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/cyan_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/cyan_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/cyan_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/cyan_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/cyan_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/gray_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/gray_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/gray_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/gray_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/gray_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/gray_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/gray_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/green_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/green_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/green_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/green_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/green_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/green_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/green_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_blue_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_blue_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_blue_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_blue_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_blue_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_blue_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_blue_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_gray_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_gray_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_gray_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_gray_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_gray_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_gray_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/light_gray_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/lime_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/lime_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/lime_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/lime_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/lime_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/lime_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/lime_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/magenta_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/magenta_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/magenta_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/magenta_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/magenta_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/magenta_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/magenta_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/metadata",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/orange_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/orange_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/orange_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/orange_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/orange_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/orange_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/orange_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/pink_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/pink_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/pink_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/pink_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/pink_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/pink_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/pink_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/purple_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/purple_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/purple_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/purple_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/purple_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/purple_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/purple_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/red_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/red_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/red_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/red_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/red_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/red_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/red_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/white_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/white_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/white_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/white_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/white_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/white_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/white_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/yellow_stained_glass_down",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/yellow_stained_glass_east",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/yellow_stained_glass_fallback",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/yellow_stained_glass_north",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/yellow_stained_glass_south",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/yellow_stained_glass_up",
+      "type": "minecraft:single"
+    },
+    {
+      "resource": "connected_glass:internal/yellow_stained_glass_west",
+      "type": "minecraft:single"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/white_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/orange_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/magenta_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/light_blue_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/yellow_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/lime_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/pink_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/gray_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/light_gray_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/cyan_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/purple_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/blue_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/brown_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/green_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/red_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/black_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/black_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/blue_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/brown_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/cyan_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/gray_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/green_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/light_blue_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/light_gray_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/lime_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/magenta_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/orange_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/pink_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/purple_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/red_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/white_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/yellow_stained_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:internal/tinted_glass_west"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:internal/tinted_glass_east"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:internal/tinted_glass_down"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:internal/tinted_glass_up"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:internal/tinted_glass_north"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:internal/tinted_glass_south"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:internal/tinted_glass_fallback"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/tinted_glass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "connected_glass:effect/borders/tinted_glass"
+    }
+  ]
+}

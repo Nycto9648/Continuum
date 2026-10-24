@@ -1,0 +1,326 @@
+{
+  "targets": {
+    "connected_glass_scene": {},
+    "connected_glass_art_a": {
+      "width": 16,
+      "height": 288
+    },
+    "connected_glass_art": {
+      "width": 16,
+      "height": 288
+    },
+    "connected_glass_border_a": {
+      "width": 16,
+      "height": 288
+    },
+    "connected_glass_border": {
+      "width": 16,
+      "height": 288
+    }
+  },
+  "passes": [
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "connected_glass:post/art_0",
+      "inputs": [
+        {
+          "sampler_name": "Art1",
+          "location": "connected_glass:glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art2",
+          "location": "connected_glass:white_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art3",
+          "location": "connected_glass:orange_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art4",
+          "location": "connected_glass:magenta_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art5",
+          "location": "connected_glass:light_blue_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art6",
+          "location": "connected_glass:yellow_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art7",
+          "location": "connected_glass:lime_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art8",
+          "location": "connected_glass:pink_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art9",
+          "location": "connected_glass:gray_stained_glass",
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "output": "connected_glass_art_a"
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "connected_glass:post/art_1",
+      "inputs": [
+        {
+          "sampler_name": "Previous",
+          "target": "connected_glass_art_a"
+        },
+        {
+          "sampler_name": "Art10",
+          "location": "connected_glass:light_gray_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art11",
+          "location": "connected_glass:cyan_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art12",
+          "location": "connected_glass:purple_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art13",
+          "location": "connected_glass:blue_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art14",
+          "location": "connected_glass:brown_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art15",
+          "location": "connected_glass:green_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art16",
+          "location": "connected_glass:red_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art17",
+          "location": "connected_glass:black_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art18",
+          "location": "connected_glass:tinted_glass",
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "output": "connected_glass_art"
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "connected_glass:post/art_0",
+      "inputs": [
+        {
+          "sampler_name": "Art1",
+          "location": "connected_glass:borders/glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art2",
+          "location": "connected_glass:borders/white_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art3",
+          "location": "connected_glass:borders/orange_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art4",
+          "location": "connected_glass:borders/magenta_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art5",
+          "location": "connected_glass:borders/light_blue_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art6",
+          "location": "connected_glass:borders/yellow_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art7",
+          "location": "connected_glass:borders/lime_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art8",
+          "location": "connected_glass:borders/pink_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art9",
+          "location": "connected_glass:borders/gray_stained_glass",
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "output": "connected_glass_border_a"
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "connected_glass:post/art_1",
+      "inputs": [
+        {
+          "sampler_name": "Previous",
+          "target": "connected_glass_border_a"
+        },
+        {
+          "sampler_name": "Art10",
+          "location": "connected_glass:borders/light_gray_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art11",
+          "location": "connected_glass:borders/cyan_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art12",
+          "location": "connected_glass:borders/purple_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art13",
+          "location": "connected_glass:borders/blue_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art14",
+          "location": "connected_glass:borders/brown_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art15",
+          "location": "connected_glass:borders/green_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art16",
+          "location": "connected_glass:borders/red_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art17",
+          "location": "connected_glass:borders/black_stained_glass",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "sampler_name": "Art18",
+          "location": "connected_glass:borders/tinted_glass",
+          "width": 16,
+          "height": 16
+        }
+      ],
+      "output": "connected_glass_border"
+    },
+    {
+      "vertex_shader": "connected_glass:post/world",
+      "fragment_shader": "connected_glass:post/world",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:main",
+          "bilinear": true
+        },
+        {
+          "sampler_name": "Depth",
+          "target": "minecraft:main",
+          "use_depth_buffer": true,
+          "bilinear": true
+        },
+        {
+          "sampler_name": "Art",
+          "target": "connected_glass_art"
+        },
+        {
+          "sampler_name": "Border",
+          "target": "connected_glass_border"
+        }
+      ],
+      "output": "connected_glass_scene"
+    },
+    {
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "connected_glass_scene"
+        }
+      ],
+      "output": "minecraft:main",
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

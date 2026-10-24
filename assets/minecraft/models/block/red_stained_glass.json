@@ -1,0 +1,38 @@
+{
+  "parent": "connected_glass:block/marker",
+  "textures": {
+    "metadata": {
+      "sprite": "connected_glass:internal/metadata",
+      "force_translucent": false
+    },
+    "particle": "connected_glass:effect/red_stained_glass",
+    "fallback": {
+      "sprite": "connected_glass:internal/red_stained_glass_fallback",
+      "force_translucent": true
+    },
+    "data_west": {
+      "sprite": "connected_glass:internal/red_stained_glass_west",
+      "force_translucent": false
+    },
+    "data_east": {
+      "sprite": "connected_glass:internal/red_stained_glass_east",
+      "force_translucent": false
+    },
+    "data_down": {
+      "sprite": "connected_glass:internal/red_stained_glass_down",
+      "force_translucent": false
+    },
+    "data_up": {
+      "sprite": "connected_glass:internal/red_stained_glass_up",
+      "force_translucent": false
+    },
+    "data_north": {
+      "sprite": "connected_glass:internal/red_stained_glass_north",
+      "force_translucent": false
+    },
+    "data_south": {
+      "sprite": "connected_glass:internal/red_stained_glass_south",
+      "force_translucent": false
+    }
+  }
+}

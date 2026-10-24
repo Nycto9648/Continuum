@@ -4,11 +4,11 @@
 
 ## Current Features: 
 
-* **Continuum Glass** 
+* **Continuum Glass**
+* **Continuum Glass Panes**
 
 ## Future Roadmap
 
-* **Continuum Glass Panes**
 * **Continuum Blocks** (Bookshelves, smooth stone, etc,.) 
 * **Sodium Compatibility**
 * **26.2 and below support**

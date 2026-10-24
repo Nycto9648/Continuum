@@ -13,30 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check required configuration
-        shell: bash
-        env:
-          MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
-          MIN_GAME_VERSION: ${{ vars.MIN_GAME_VERSION }}
-          MAX_GAME_VERSION: ${{ vars.MAX_GAME_VERSION }}
-        run: |
-          set -euo pipefail
-
-          if [[ -z "$MODRINTH_PROJECT_ID" ]]; then
-            echo "Missing repository variable: MODRINTH_PROJECT_ID"
-            exit 1
-          fi
-
-          if [[ -z "$MIN_GAME_VERSION" ]]; then
-            echo "Missing repository variable: MIN_GAME_VERSION"
-            exit 1
-          fi
-
-          if [[ -z "$MAX_GAME_VERSION" ]]; then
-            echo "Missing repository variable: MAX_GAME_VERSION"
-            exit 1
-          fi
-
       - name: Check out repository
         uses: actions/checkout@v6
 
@@ -45,12 +21,10 @@ jobs:
         shell: bash
         env:
           RELEASE_BODY: ${{ github.event.release.body }}
-          MIN_GAME_VERSION: ${{ vars.MIN_GAME_VERSION }}
-          MAX_GAME_VERSION: ${{ vars.MAX_GAME_VERSION }}
         run: |
           set -euo pipefail
 
-          DEFAULT_VERSIONS=">=$MIN_GAME_VERSION <=$MAX_GAME_VERSION"
+          DEFAULT_VERSIONS=">=26.3 <=26.3"
           VERSION_LINE="$(printf '%s\n' "$RELEASE_BODY" | sed -nE 's/^[[:space:]]*Minecraft versions:[[:space:]]*(.+)[[:space:]]*$/\1/ip' | head -n 1)"
           GAME_VERSIONS="${VERSION_LINE:-$DEFAULT_VERSIONS}"
 
@@ -59,9 +33,6 @@ jobs:
 
       - name: Build resource-pack ZIP
         shell: bash
-        env:
-          PACK_NAME: ${{ vars.PACK_NAME }}
-          RELEASE_TAG: ${{ github.event.release.tag_name }}
         run: |
           set -euo pipefail
 
@@ -73,10 +44,8 @@ jobs:
           fi
 
           PACK_ROOT="$(dirname "$PACK_META")"
-          SAFE_PACK_NAME="$(printf '%s' "${PACK_NAME:-Resource-Pack}" | tr '/\\ ' '---')"
-          SAFE_TAG="$(printf '%s' "$RELEASE_TAG" | tr '/\\ ' '---')"
           OUTPUT_DIR="$GITHUB_WORKSPACE/build"
-          OUTPUT_FILE="$OUTPUT_DIR/$SAFE_PACK_NAME-$SAFE_TAG.zip"
+          OUTPUT_FILE="$OUTPUT_DIR/§d§lConti§5§lnuum.zip"
 
           mkdir -p "$OUTPUT_DIR"
 
@@ -101,10 +70,10 @@ jobs:
 
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-          modrinth-id: ${{ vars.MODRINTH_PROJECT_ID }}
+          modrinth-id: VIB2yHNB
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
-          name: ${{ github.event.release.name || github.event.release.tag_name }}
+          name: §d§lConti§5§lnuum
           version: ${{ github.event.release.tag_name }}
           version-type: release
           changelog: ${{ github.event.release.body }}

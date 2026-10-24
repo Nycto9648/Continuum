@@ -1,71 +1,38 @@
-# Modrinth Resource Pack Publishing Template
+# 📦 In This Pack
 
-This template publishes one resource-pack ZIP to both GitHub Releases and Modrinth whenever a GitHub release is published.
+**Continuum** brings connected textures to Minecraft: Java Edition without requiring OptiFine, Continuity, Fusion or any other mods!
 
-## Resource-pack layout
+## Current Features: 
 
-Copy the unpacked resource pack into the repository. The workflow finds `pack.mcmeta` automatically, whether it is at the repository root or inside one containing folder.
+* **Continuum Glass** 
 
-Recommended layout:
+## Future Roadmap
 
-```text
-repository/
-├── .github/
-│   └── workflows/
-│       └── publish.yml
-├── assets/
-├── pack.mcmeta
-├── pack.png
-└── README.md
-```
+* **Continuum Glass Panes**
+* **Continuum Blocks** (Bookshelves, smooth stone, etc,.) 
+* **Sodium Compatibility**
+* **26.2 and below support**
 
-Do not commit a manually created release ZIP. The workflow creates it.
+> all of the features above are planned, however no dates are currently guarenteed for any of their arrival. 
 
-## Configure each new repository
+# 🔗 Compatibility
 
-Open **Settings → Secrets and variables → Actions**.
+Continuum is designed for **Minecraft: Java Edition 26.3** and uses vanilla resource pack features. Continuum will not currently* work below 26.3
 
-Create this repository secret under **Secrets**:
+Continnum currently is not supported with the use of [Sodium](https://modrinth.com/mod/sodium), if you have Sodium installed Continuum will not properly load. 
 
-| Secret | Value |
-| --- | --- |
-| `MODRINTH_TOKEN` | A Modrinth personal access token with permission to create versions |
+It should work alongside most other resource packs, given they do not override the same block models, textures, or shader files.
 
-Create these repository variables under **Variables**:
+**Important notes:**
 
-| Variable | Example |
-| --- | --- |
-| `MODRINTH_PROJECT_ID` | `jDHE5lOR` |
-| `PACK_NAME` | `MobDoll` |
-| `MIN_GAME_VERSION` | `1.21.4` |
-| `MAX_GAME_VERSION` | `26.2` |
+* Resource packs that modify glass textures or models may conflict with Continuum.
+* Other resource packs that modify the same vanilla shader files may be incompatible.
+* For best results, place Continuum above other resource packs in your resource pack list.
 
-## Publish a version
+## Bedrock Edition
 
-1. Commit and push the resource-pack changes.
-2. Create a GitHub release with a unique version tag such as `1.3.3`.
-3. Add a release title and changelog.
-4. Publish the release.
+Continuum is designed exclusively for **Minecraft: Java Edition**
 
-The workflow packages the folder containing `pack.mcmeta`, attaches the ZIP to the GitHub release, and publishes the same ZIP to Modrinth.
+It is not compatible with Bedrock Edition, including Minecraft for Windows, Pocket Edition, or console editions.
 
-## Override compatibility for one release
-
-To override the default Minecraft range, include a line like this in the release notes:
-
-```text
-Minecraft versions: >=1.21.4 <=26.3
-```
-
-If this line is absent, the workflow uses `MIN_GAME_VERSION` through `MAX_GAME_VERSION`.
-
-## Turn this into a GitHub template
-
-1. Push these files to a dedicated GitHub repository.
-2. Open **Settings → General** for that repository.
-3. Enable **Template repository**.
-4. For each new pack, select **Use this template → Create a new repository**.
-5. Copy in the new pack's unpacked files.
-6. Configure that repository's secret and variables.
-
-Never commit the Modrinth token into a file.
+This is due to differences between Java and Bedrock's rendering systems and resource pack capabilities.

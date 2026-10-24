@@ -1,0 +1,119 @@
+name: Publish resource pack
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    name: Publish to GitHub and Modrinth
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check required configuration
+        shell: bash
+        env:
+          MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
+          MIN_GAME_VERSION: ${{ vars.MIN_GAME_VERSION }}
+          MAX_GAME_VERSION: ${{ vars.MAX_GAME_VERSION }}
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$MODRINTH_PROJECT_ID" ]]; then
+            echo "Missing repository variable: MODRINTH_PROJECT_ID"
+            exit 1
+          fi
+
+          if [[ -z "$MIN_GAME_VERSION" ]]; then
+            echo "Missing repository variable: MIN_GAME_VERSION"
+            exit 1
+          fi
+
+          if [[ -z "$MAX_GAME_VERSION" ]]; then
+            echo "Missing repository variable: MAX_GAME_VERSION"
+            exit 1
+          fi
+
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Read Minecraft versions from release notes
+        id: minecraft_versions
+        shell: bash
+        env:
+          RELEASE_BODY: ${{ github.event.release.body }}
+          MIN_GAME_VERSION: ${{ vars.MIN_GAME_VERSION }}
+          MAX_GAME_VERSION: ${{ vars.MAX_GAME_VERSION }}
+        run: |
+          set -euo pipefail
+
+          DEFAULT_VERSIONS=">=$MIN_GAME_VERSION <=$MAX_GAME_VERSION"
+          VERSION_LINE="$(printf '%s\n' "$RELEASE_BODY" | sed -nE 's/^[[:space:]]*Minecraft versions:[[:space:]]*(.+)[[:space:]]*$/\1/ip' | head -n 1)"
+          GAME_VERSIONS="${VERSION_LINE:-$DEFAULT_VERSIONS}"
+
+          echo "Using Minecraft versions: $GAME_VERSIONS"
+          echo "value=$GAME_VERSIONS" >> "$GITHUB_OUTPUT"
+
+      - name: Build resource-pack ZIP
+        shell: bash
+        env:
+          PACK_NAME: ${{ vars.PACK_NAME }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          set -euo pipefail
+
+          PACK_META="$(find . -type f -name pack.mcmeta -not -path './.git/*' -print -quit)"
+
+          if [[ -z "$PACK_META" ]]; then
+            echo "Could not find pack.mcmeta anywhere in the repository."
+            exit 1
+          fi
+
+          PACK_ROOT="$(dirname "$PACK_META")"
+          SAFE_PACK_NAME="$(printf '%s' "${PACK_NAME:-Resource-Pack}" | tr '/\\ ' '---')"
+          SAFE_TAG="$(printf '%s' "$RELEASE_TAG" | tr '/\\ ' '---')"
+          OUTPUT_DIR="$GITHUB_WORKSPACE/build"
+          OUTPUT_FILE="$OUTPUT_DIR/$SAFE_PACK_NAME-$SAFE_TAG.zip"
+
+          mkdir -p "$OUTPUT_DIR"
+
+          (
+            cd "$PACK_ROOT"
+            zip -r "$OUTPUT_FILE" . \
+              -x '.git/*' \
+                 '.github/*' \
+                 'build/*' \
+                 '*.zip'
+          )
+
+          test -s "$OUTPUT_FILE"
+          unzip -l "$OUTPUT_FILE" | grep -q 'pack.mcmeta'
+
+          echo "Created $OUTPUT_FILE"
+
+      - name: Publish release file to GitHub and Modrinth
+        uses: Kira-NT/mc-publish@v3
+        with:
+          files: build/*.zip
+
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          modrinth-id: ${{ vars.MODRINTH_PROJECT_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          name: ${{ github.event.release.name || github.event.release.tag_name }}
+          version: ${{ github.event.release.tag_name }}
+          version-type: release
+          changelog: ${{ github.event.release.body }}
+
+          loaders: minecraft
+          game-versions: ${{ steps.minecraft_versions.outputs.value }}
+          game-version-filter: releases
+          environment: client
+
+          retry-attempts: 2
+          retry-delay: 10000
+          fail-mode: fail

@@ -1,0 +1,13 @@
+{
+  "parent": "continuum:block/chiseled_bookshelf/marker",
+  "textures": {
+    "data": {
+      "sprite": "continuum:internal/chiseled_bookshelf/north_36",
+      "force_translucent": false
+    },
+    "metadata": {
+      "sprite": "continuum:internal/glass/metadata",
+      "force_translucent": false
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "connected_glass:item/lime_stained_glass_pane"
+    "model": "continuum:item/panes/lime_stained_glass_pane"
   }
 }

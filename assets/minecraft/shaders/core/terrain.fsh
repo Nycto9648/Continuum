@@ -1,6 +1,6 @@
 #version 330
 #extension GL_ARB_separate_shader_objects : require
-#include <connected_glass:viewport.glsl>
+#include <continuum:renderer.glsl>
 
 #include <minecraft:fog.glsl>
 #include <minecraft:globals.glsl>
@@ -38,7 +38,15 @@ layout(location = 5) flat in int cgKind;
 layout(location = 6) flat in int cgId;
 layout(location = 7) in vec3 cgPosition;
 layout(location = 8) flat in ivec3 cgCell;
-#include <connected_glass:palette.glsl>
+layout(location = 9) flat in vec2 cgFallbackUV;
+layout(location = 10) flat in int cgBookMask;
+vec4 cgFallbackSample(vec2 uv,vec2 center) {
+    vec2 texel=1.0/vec2(textureSize(Sampler0,0));
+    vec2 mapped=center+(uv-center)*0.5;
+    return textureLod(Sampler0,clamp(mapped,center-7.5*texel,center+7.5*texel),0.0);
+}
+
+#include <continuum:glass_palette.glsl>
 vec4 cgEncode(float value) {
     uint b = floatBitsToUint(value);
     return vec4(uvec4(b, b >> 8u, b >> 16u, b >> 24u) & uvec4(255u)) / 255.0;
@@ -49,7 +57,7 @@ void main() {
         discard;
         #else
         if (cgKind == 1) {
-            fragColor = vec4(float(cgId) / 255.0, 173.0 / 255.0, 91.0 / 255.0, clamp(dot(vertexColor.rgb,vec3(0.2126,0.7152,0.0722)),0.0,1.0));
+            fragColor = vec4(float(cgId) / 255.0, (cgBookMask>=0?174.0:173.0) / 255.0, (cgBookMask>=0?float(cgBookMask):91.0) / 255.0, clamp(dot(vertexColor.rgb,vec3(0.2126,0.7152,0.0722)),0.0,1.0));
         } else {
             int p = int(gl_FragCoord.x);
             if (p < 16) fragColor = cgEncode(ModelViewMat[p / 4][p % 4]);
@@ -69,14 +77,7 @@ void main() {
     if(ProjMat[3][3] == 0.0 && cgEnabled(ivec2(ScreenSize)) && gl_FragCoord.y < float(cgRows(ivec2(ScreenSize)))) discard;
     if(cgKind == 3 && cgEnabled(ivec2(ScreenSize)) && all(greaterThanEqual(cgCell,ivec3(0))) && all(lessThan(cgCell,ivec3(CG_GRID_SIZE)))) discard;
     vec4 color = (UseRgss == 1 ? sampleRGSS(Sampler0, texCoord0, 1.0f / TextureSize) : sampleNearest(Sampler0, texCoord0, 1.0f / TextureSize)) * vertexColor;
-    if(cgKind == 3) {
-        vec3 normal=abs(cross(dFdx(cgPosition),dFdy(cgPosition)));
-        int axis=normal.x>normal.y ? (normal.x>normal.z?0:2) : (normal.y>normal.z?1:2);
-        vec3 local=fract(cgPosition);
-        bool edge=false;
-        for(int d=0;d<3;d++) if(d!=axis && (local[d]<0.040625 || local[d]>0.959375)) edge=true;
-        color=vec4(palette[cgId-1],edge?1.0:(cgId==1?0.10:(cgId==18?0.50:0.24)))*vertexColor;
-    }
+    if(cgKind == 3) color=cgFallbackSample(texCoord0,cgFallbackUV)*vertexColor;
     #ifndef OIT_ALPHA_ONLY
     color = mix(FogColor * vec4(1, 1, 1, color.a), color, chunkVisibility);
     #endif

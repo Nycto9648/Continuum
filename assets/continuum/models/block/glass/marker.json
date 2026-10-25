@@ -1,0 +1,248 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "from": [
+        7.999,
+        7.999,
+        7.999
+      ],
+      "to": [
+        7.999,
+        8.001,
+        8.001
+      ],
+      "shade": false,
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#data_west"
+        }
+      }
+    },
+    {
+      "from": [
+        8.001,
+        7.999,
+        7.999
+      ],
+      "to": [
+        8.001,
+        8.001,
+        8.001
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#data_east"
+        }
+      }
+    },
+    {
+      "from": [
+        7.999,
+        7.999,
+        7.999
+      ],
+      "to": [
+        8.001,
+        7.999,
+        8.001
+      ],
+      "shade": false,
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#data_down"
+        }
+      }
+    },
+    {
+      "from": [
+        7.999,
+        8.001,
+        7.999
+      ],
+      "to": [
+        8.001,
+        8.001,
+        8.001
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#data_up"
+        }
+      }
+    },
+    {
+      "from": [
+        7.999,
+        7.999,
+        7.999
+      ],
+      "to": [
+        8.001,
+        8.001,
+        7.999
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#data_north"
+        }
+      }
+    },
+    {
+      "from": [
+        7.999,
+        7.999,
+        8.001
+      ],
+      "to": [
+        8.001,
+        8.001,
+        8.001
+      ],
+      "shade": false,
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#data_south"
+        }
+      }
+    },
+    {
+      "from": [
+        7.999,
+        7.999,
+        8.001
+      ],
+      "to": [
+        8.001,
+        8.001,
+        8.001
+      ],
+      "shade_direction_override": "up",
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#metadata"
+        }
+      }
+    },
+    {
+      "from": [
+        0.001,
+        0.001,
+        0.001
+      ],
+      "to": [
+        15.999,
+        15.999,
+        15.999
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fallback",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fallback",
+          "cullface": "east"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fallback",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fallback",
+          "cullface": "up"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fallback",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fallback",
+          "cullface": "south"
+        }
+      }
+    }
+  ]
+}

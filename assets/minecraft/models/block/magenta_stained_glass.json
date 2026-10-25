@@ -1,37 +1,37 @@
 {
-  "parent": "connected_glass:block/marker",
+  "parent": "continuum:block/glass/marker",
   "textures": {
     "metadata": {
-      "sprite": "connected_glass:internal/metadata",
+      "sprite": "continuum:internal/glass/metadata",
       "force_translucent": false
     },
-    "particle": "connected_glass:effect/magenta_stained_glass",
+    "particle": "continuum:effect/glass/faces/magenta_stained_glass",
     "fallback": {
-      "sprite": "connected_glass:internal/magenta_stained_glass_fallback",
+      "sprite": "continuum:internal/glass/magenta_stained_glass_fallback",
       "force_translucent": true
     },
     "data_west": {
-      "sprite": "connected_glass:internal/magenta_stained_glass_west",
+      "sprite": "continuum:internal/glass/magenta_stained_glass_west",
       "force_translucent": false
     },
     "data_east": {
-      "sprite": "connected_glass:internal/magenta_stained_glass_east",
+      "sprite": "continuum:internal/glass/magenta_stained_glass_east",
       "force_translucent": false
     },
     "data_down": {
-      "sprite": "connected_glass:internal/magenta_stained_glass_down",
+      "sprite": "continuum:internal/glass/magenta_stained_glass_down",
       "force_translucent": false
     },
     "data_up": {
-      "sprite": "connected_glass:internal/magenta_stained_glass_up",
+      "sprite": "continuum:internal/glass/magenta_stained_glass_up",
       "force_translucent": false
     },
     "data_north": {
-      "sprite": "connected_glass:internal/magenta_stained_glass_north",
+      "sprite": "continuum:internal/glass/magenta_stained_glass_north",
       "force_translucent": false
     },
     "data_south": {
-      "sprite": "connected_glass:internal/magenta_stained_glass_south",
+      "sprite": "continuum:internal/glass/magenta_stained_glass_south",
       "force_translucent": false
     }
   }

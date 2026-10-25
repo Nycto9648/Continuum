@@ -1,0 +1,86 @@
+{
+	"format_version": "26.3",
+	"credit": "Haphazardly assembled by Nycto",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "block/oak_planks",
+		"side": "continuum:effect/bookshelf/both",
+		"metadata": "continuum:internal/glass/metadata",
+		"data_west": "continuum:internal/bookshelf/west",
+		"data_east": "continuum:internal/bookshelf/east",
+		"data_down": "continuum:internal/bookshelf/down",
+		"data_up": "continuum:internal/bookshelf/up",
+		"data_north": "continuum:internal/bookshelf/north",
+		"data_south": "continuum:internal/bookshelf/south"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7.999, 7.999, 7.999],
+			"to": [7.999, 8.001, 8.001],
+			"shade_direction_override": "up",
+			"faces": {
+				"west": {"uv": [0, 0, 16, 16], "texture": "#data_west"}
+			}
+		},
+		{
+			"from": [8.001, 7.999, 7.999],
+			"to": [8.001, 8.001, 8.001],
+			"shade_direction_override": "up",
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#data_east"}
+			}
+		},
+		{
+			"from": [7.999, 7.999, 7.999],
+			"to": [8.001, 7.999, 8.001],
+			"shade_direction_override": "up",
+			"faces": {
+				"down": {"uv": [0, 0, 16, 16], "texture": "#data_down"}
+			}
+		},
+		{
+			"from": [7.999, 8.001, 7.999],
+			"to": [8.001, 8.001, 8.001],
+			"shade_direction_override": "up",
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#data_up"}
+			}
+		},
+		{
+			"from": [7.999, 7.999, 7.999],
+			"to": [8.001, 8.001, 7.999],
+			"shade_direction_override": "up",
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#data_north"}
+			}
+		},
+		{
+			"from": [7.999, 7.999, 8.001],
+			"to": [8.001, 8.001, 8.001],
+			"shade_direction_override": "up",
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#data_south"}
+			}
+		},
+		{
+			"from": [7.999, 7.999, 8.001],
+			"to": [8.001, 8.001, 8.001],
+			"shade_direction_override": "up",
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#metadata"}
+			}
+		}
+	]
+}

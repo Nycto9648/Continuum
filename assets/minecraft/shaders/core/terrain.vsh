@@ -1,6 +1,6 @@
 #version 330
 #extension GL_ARB_separate_shader_objects : require
-#include <connected_glass:viewport.glsl>
+#include <continuum:renderer.glsl>
 
 #include <minecraft:fog.glsl>
 #include <minecraft:globals.glsl>
@@ -35,6 +35,13 @@ layout(location = 5) flat out int cgKind;
 layout(location = 6) flat out int cgId;
 layout(location = 7) out vec3 cgPosition;
 layout(location = 8) flat out ivec3 cgCell;
+layout(location = 9) flat out vec2 cgFallbackUV;
+layout(location = 10) flat out int cgBookMask;
+vec2 cgFallbackCenter(vec2 uv,ivec4 tag,ivec2 size) {
+    int corner=tag.b-232;
+    return round(uv*vec2(size)+(vec2(0.5)-vec2(corner&1,corner>>1))*32.0)/vec2(size);
+}
+
 
 void cgOriginalMain() {
     vec3 pos = Position + (ChunkPosition - CameraBlockPos) + CameraOffset;
@@ -54,10 +61,15 @@ void cgOriginalMain() {
     chunkVisibility = mix(1.0, ChunkVisibility, clamp((dist - chunkFullyVisibleRange) / chunkFullyVisibleRange, 0.0, 1.0));
 
     ivec4 tag = ivec4(round(textureLod(Sampler0, UV0, 0.0) * 255.0));
-    cgKind = 0; cgId = 0;
+    cgKind = 0; cgId = 0; cgBookMask=-1; cgFallbackUV=vec2(0.0);
     cgPosition = Position;
     cgCell = ivec3(floor(Position)) + ChunkPosition - CameraBlockPos + ivec3(CG_GRID_HALF);
-    if (tag.a == 255 && tag.b >= 220 && tag.b <= 225 && tag.g == 246 && tag.r >= 42 && tag.r <= 212) {
+    if(tag.a==255 && tag.b==226 && tag.r>=20 && tag.r<=23 && tag.g>=190 && tag.g<=253) {
+        cgKind=1;cgId=tag.r;cgBookMask=tag.g-190;
+    } else if(tag.a==255 && tag.g==245 && tag.b>=232 && tag.b<=235 && tag.r>=42 && tag.r<=212) {
+        cgKind=3;cgId=int(round((float(tag.r)-32.0)/10.0));
+        cgFallbackUV=cgFallbackCenter(UV0,tag,textureSize(Sampler0,0));
+    } else if (tag.a == 255 && tag.b >= 220 && tag.b <= 225 && tag.g == 246 && tag.r >= 42 && tag.r <= 222) {
         cgKind=1; cgId=int(round((float(tag.r)-32.0)/10.0));
     } else if (tag.a == 255 && abs(tag.b - 213) <= 1) {
         if ((tag.g == 246 || tag.g == 245) && tag.r >= 42 && tag.r <= 212) {
@@ -68,7 +80,7 @@ void cgOriginalMain() {
         ivec3 cell = ivec3(floor(Position)) + ChunkPosition - CameraBlockPos + ivec3(CG_GRID_HALF);
         vec2 corner = step(vec2(0.5), fract(Position.xy));
         if (cgKind == 1) {
-            int face=tag.b-220;
+            int face=tag.b==226?(tag.r==20?4:(tag.r==21?1:(tag.r==22?5:0))):tag.b-220;
             vec2 local=face<2?fract(Position.zy):(face<4?fract(Position.xz):fract(Position.xy));
             corner=step(vec2(0.5),local);
             if(face==1 || face==4) corner.x=1.0-corner.x;

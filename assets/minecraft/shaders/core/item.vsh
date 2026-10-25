@@ -1,6 +1,6 @@
 #version 330
 #extension GL_ARB_separate_shader_objects : require
-#include <connected_glass:viewport.glsl>
+#include <continuum:renderer.glsl>
 
 #include <minecraft:light.glsl>
 #include <minecraft:fog.glsl>

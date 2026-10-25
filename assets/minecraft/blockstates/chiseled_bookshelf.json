@@ -1,0 +1,4383 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf",
+        "uvlock": true
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_left"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_left"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_0_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_1_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_2_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_3_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_4_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_4_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_5_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          },
+          {
+            "slot_5_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_left",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_left",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_0_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_1_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_2_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_3_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_4_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_4_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_5_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          },
+          {
+            "slot_5_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_left",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_left",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_0_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_1_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_2_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_3_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_4_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_4_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_5_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          },
+          {
+            "slot_5_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_left",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_left",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_0_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_1_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_2_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_3_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_4_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_4_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_5_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          },
+          {
+            "slot_5_occupied": "false"
+          }
+        ]
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_00"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_01"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_02"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_03"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_04"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_05"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_06"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_07"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_08"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_09"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_10"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_11"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_12"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_13"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_14"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_15"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_16"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_17"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_18"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_19"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_20"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_21"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_22"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_23"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_24"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_25"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_26"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_27"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_28"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_29"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_30"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_31"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_32"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_33"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_34"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_35"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_36"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_37"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_38"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_39"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_40"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_41"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_42"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_43"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_44"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_45"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_46"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_47"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_48"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_49"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_50"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_51"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_52"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_53"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_54"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_55"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_56"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_57"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_58"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_59"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_60"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_61"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_62"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/north_63"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_00"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_01"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_02"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_03"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_04"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_05"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_06"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_07"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_08"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_09"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_10"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_11"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_12"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_13"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_14"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_15"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_16"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_17"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_18"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_19"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_20"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_21"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_22"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_23"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_24"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_25"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_26"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_27"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_28"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_29"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_30"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_31"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_32"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_33"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_34"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_35"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_36"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_37"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_38"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_39"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_40"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_41"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_42"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_43"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_44"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_45"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_46"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_47"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_48"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_49"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_50"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_51"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_52"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_53"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_54"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_55"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_56"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_57"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_58"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_59"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_60"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_61"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_62"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/east_63"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_00"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_01"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_02"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_03"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_04"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_05"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_06"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_07"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_08"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_09"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_10"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_11"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_12"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_13"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_14"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_15"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_16"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_17"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_18"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_19"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_20"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_21"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_22"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_23"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_24"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_25"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_26"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_27"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_28"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_29"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_30"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_31"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_32"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_33"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_34"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_35"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_36"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_37"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_38"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_39"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_40"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_41"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_42"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_43"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_44"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_45"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_46"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_47"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_48"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_49"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_50"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_51"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_52"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_53"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_54"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_55"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_56"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_57"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_58"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_59"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_60"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_61"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_62"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/south_63"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_00"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_01"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_02"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_03"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_04"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_05"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_06"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_07"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_08"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_09"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_10"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_11"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_12"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_13"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_14"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_15"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_16"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_17"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_18"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_19"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_20"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_21"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_22"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_23"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_24"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_25"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_26"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_27"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_28"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_29"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_30"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "false"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_31"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_32"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_33"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_34"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_35"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_36"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_37"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_38"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_39"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_40"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_41"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_42"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_43"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_44"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_45"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_46"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "false",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_47"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_48"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_49"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_50"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_51"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_52"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_53"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_54"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "false",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_55"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_56"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_57"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_58"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "false",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_59"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_60"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "false",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_61"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "false",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_62"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "slot_0_occupied": "true",
+        "slot_1_occupied": "true",
+        "slot_2_occupied": "true",
+        "slot_3_occupied": "true",
+        "slot_4_occupied": "true",
+        "slot_5_occupied": "true"
+      },
+      "apply": {
+        "model": "continuum:block/chiseled_bookshelf/west_63"
+      }
+    }
+  ]
+}

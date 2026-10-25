@@ -1,6 +1,6 @@
 #version 330
 #extension GL_ARB_separate_shader_objects : require
-#include <connected_glass:viewport.glsl>
+#include <continuum:renderer.glsl>
 
 #if defined(PER_FACE_LIGHTING) || !defined(NO_CARDINAL_LIGHTING)
 #include <minecraft:light.glsl>

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "connected_glass:item/red_stained_glass"
+    "model": "continuum:item/glass/red_stained_glass"
   }
 }

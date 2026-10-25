@@ -1,0 +1,13 @@
+{
+  "parent": "continuum:block/panes/shape_1",
+  "textures": {
+    "pane": {
+      "sprite": "continuum:effect/glass/faces/blue_stained_glass",
+      "force_translucent": true
+    },
+    "border": {
+      "sprite": "continuum:effect/glass/borders/blue_stained_glass",
+      "force_translucent": true
+    }
+  }
+}

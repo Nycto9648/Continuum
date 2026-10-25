@@ -1,6 +1,6 @@
 #version 330
 #extension GL_ARB_separate_shader_objects : require
-#include <connected_glass:viewport.glsl>
+#include <continuum:renderer.glsl>
 
 #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
 #include <minecraft:fog.glsl>

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "continuum:effect/glass/faces/blue_stained_glass",
+    "layer1": "continuum:effect/glass/borders/blue_stained_glass"
+  }
+}

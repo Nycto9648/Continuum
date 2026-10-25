@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "from": [
+        7.999,
+        7.999,
+        15.999
+      ],
+      "to": [
+        8.001,
+        8.001,
+        15.999
+      ],
+      "shade": false,
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#data"
+        }
+      }
+    },
+    {
+      "from": [
+        7.999,
+        7.999,
+        8.001
+      ],
+      "to": [
+        8.001,
+        8.001,
+        8.001
+      ],
+      "shade_direction_override": "up",
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#metadata"
+        }
+      }
+    }
+  ]
+}
